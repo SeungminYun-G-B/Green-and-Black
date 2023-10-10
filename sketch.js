@@ -4,7 +4,7 @@ let Wall = 100;
 
 
 function setup() {
-  createCanvas(400, 800); 
+  createCanvas(400, 400); 
   // ball = new Walker();
   rectMode(CENTER);
 }
