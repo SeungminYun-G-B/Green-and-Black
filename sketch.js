@@ -20,7 +20,7 @@ function draw() {
   for(let b of balls){
   b.update();
   b.display();
-  b.checkEdges(200+Wall/2,200-Wall/2,200+Wall/2,200-Wall/2);
+  b.checkEdges(width/2+Wall/2,width/2-Wall/2,height/2+Wall/2,height/2-Wall/2);
   }
 
 }
